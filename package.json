@@ -179,6 +179,7 @@
     "reliability:ring1": "node scripts/reliability-ring1.mjs",
     "test:mutation": "for pkg in agents auth config kernel node-sdk runtime security storage; do npm run test:mutation --workspace=packages/$pkg || true; done",
     "mutation:score": "node scripts/mutation-score.mjs",
+    "crap": "node scripts/crap-score.mjs",
     "mutate": "node packages/mutator/dist/cli.js",
     "lint:web": "npm run lint --workspace=web",
     "lint:electron": "npm run lint --workspace=electron",
